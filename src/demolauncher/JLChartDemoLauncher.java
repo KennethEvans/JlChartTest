@@ -47,7 +47,7 @@ public class JLChartDemoLauncher extends JFrame
   private JPanel displayPanel = new JPanel();
   private JSplitPane mainPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
     listPanel, displayPanel);
-  private JList list = new JList(demos);
+  private JList<JLChartDemo> list = new JList<JLChartDemo>(demos);
   private JMenuBar menuBar = new JMenuBar();
   private JMenu menuFile = new JMenu();
   private JMenuItem menuFileResetCurrent = new JMenuItem();
